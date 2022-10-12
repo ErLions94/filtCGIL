@@ -1,0 +1,74 @@
+.up {
+    background-image:
+     linear-gradient( rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.5)),
+     url(ars-manifestazione.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-1 {
+    background-color: rgb( 52, 52, 52);
+    text-align: center;
+    padding: 2px;
+}
+
+.contact-2 {
+    background-color: rgb(52, 52, 52);
+    text-align: center;
+    padding: 2px;
+}
+
+h4, h3 {
+    color: rgb(255, 0, 0);
+    line-height: 0px;
+}
+
+.questionari {
+    background-color: rgba( 250, 128, 114, 85%);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+    color: blue;
+}
+
+.questionari p {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    color: red;
+}
+
+p {
+    font-size: 30px;
+    color: blue;
+}
+
+.bottone {
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid #fb0404;
+    border-radius: 16px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 4);
+    transition: .3s;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.bottone:hover {
+    transform: scale(1.08);
+}
+
+.bottone h5 {
+    color: red;
+}
+
+.gandalf {
+    justify-content: space-between;
+}
+
