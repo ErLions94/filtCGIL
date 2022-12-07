@@ -18,13 +18,18 @@
     padding: 2px;
 }
 
-h4, h3 {
+h4 {
+    color: rgb(255, 0, 0);
+    line-height: 0px;
+}
+
+h3 {
     color: rgb(255, 0, 0);
     line-height: 0px;
 }
 
 .questionari {
-    background-color: rgba( 250, 128, 114, 85%);
+    background-color: rgba(128, 0, 128, 30%);
     text-align: center;
     padding: 20px 0;
 }
@@ -53,7 +58,7 @@ p {
     background-color: antiquewhite;
     text-align: center;
     border: 1px solid #fb0404;
-    border-radius: 16px;
+    border-radius: 50px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 4);
     transition: .3s;
     margin: auto;
@@ -72,3 +77,40 @@ p {
     justify-content: space-between;
 }
 
+red {
+    color: #fb0404;
+}
+
+.orario {
+    background-color: green;
+    text-align: center;
+    padding: 20px 0;    
+}
+
+yll {
+    color: yellow;
+}
+
+.bit {
+    background-image:
+     linear-gradient( rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.5)),
+     url(images.jpg);
+    background-size: repeat;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.papero {
+    background-color: rgb(122, 209, 227);
+    border: 5px solid #0b34bb;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu {
+    color: #fb0404;
+}
+
+.mostra {display:block;}
