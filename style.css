@@ -115,6 +115,10 @@ yll {
     padding: 20px 0;
 }
 
+. bit h1 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+    
 .papero {
     background-color: rgb(122, 209, 227);
     border: 5px solid #0b34bb;
