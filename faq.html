@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>FAQ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1">
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="app.js"></script>
+        <style>
+            body {margin: 0px;}
+            .papero {font-size: 40px; padding-left: 20px; text-align: center;}
+
+            @media (max-width: 1200px) {
+                .papero {font-size: 40px; padding-left: 20px; text-align: center;}
+            }
+            @media (max-width: 980px) {
+                .papero {font-size: 30px; padding-left: 15px; text-align: center;}
+            }
+            @media (max-width: 767px) {
+                .papero {font-size: 25px; padding-left: 10px; text-align: center;}
+            }
+            @media (max-width: 480px) {
+                .papero {font-size: 20px; padding-left: 5px; padding-right: 0px; text-align: center;}
+            }
+
+            .penna {max-height: 0; overflow: hidden; transition: all 1s cubic-bezier(.215, .61, .355, 1);}
+
+            .penna1 {max-height: 0; overflow: hidden; transition: all 1s cubic-bezier(.215, .61, .355, 1);}
+
+            .active {max-height: 300px;}
+
+        </style>
+        <div class="papero">
+            <div class="gigi">
+                <h1 class="toggle">Qual'è il testo normativo di riferimento?</h1>
+                <div class="penna">
+                    <text>Il testo normativo di riferimento è il CCNL della Mobilità/Area contrattuale Attività Ferroviarie del 16 dicembre 2016 con vigenza triennale, affiancato al Contratto Aziendale Gruppo Ferrovie dello Stato Italiane cioè l'accordo integrativo di secondo livello.</text>
+                </div>
+            </div>
+        </div>
+        <div class="papero">
+            <div class="gigi">
+                <h1 class="toggle1">Si può rientrare da un periodo di malattia e fruire dell'intervallo?</h1>
+                <div class="penna1">
+                    <text>Si, l'intervallo è parte integrante del riposo.</text>
+                </div>
+            </div>
+        </div>
+    <script>
+        let item = document.querySelector('.toggle');
+        let penna = document.querySelector('.penna');
+        item.addEventListener("click", function() {
+            penna.classList.toggle('active');
+        });
+
+        let item1 = document.querySelector('.toggle1');
+        let penna1 = document.querySelector('.penna1');
+        item1.addEventListener("click", function() {
+            penna1.classList.toggle('active');
+        });
+    </script>
+    </body>
+</html>
