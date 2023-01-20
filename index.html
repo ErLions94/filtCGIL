@@ -1,0 +1,184 @@
+<html>
+    <head>
+        <title>FILT CGIL Roma & Lazio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1">
+    </head>
+    <body>
+        <style>
+            body{margin:0px;}
+            .up {text-align: bottom;
+            padding-top: 0px;}
+            .up img {height: 250px;}
+            .contact-1 {float: left;
+            width: 50%; font-size: 40px;}
+            .contact-2 {font-size: 47px;}
+            .questionari {font-size: 70px;}
+            .bottone {width: 340px;
+            font-size: 40px;}
+            .bottonel {width: 340px;
+            font-size: 40px;}
+            .gandalf {display: flex;
+            padding-left: 150px; padding-right: 150px;}
+            .menu {width: 340px; font-size: 40px;}
+            .scelta {width: 340px; font-size: 35px;}
+
+            @media (max-width: 1200px) {
+                .up {text-align: bottom;
+                padding-top: 0px;}
+                .up img {height: 250px;}
+                .contact-1 {float: left;
+                width: 50%; font-size: 40px;}
+                .contact-2 {font-size: 47px;}
+                .bottone {width: 320px;
+                font-size: 40px;}
+                .bottonel {width: 320px;
+                font-size: 40px;}
+                .gandalf {display: flex; padding-left: 150px; padding-right: 150px;}
+                .menu {width: 320px; font-size: 40px;}
+                .scelta {width: 320px; font-size: 35px;}
+            }
+
+            @media (max-width: 980px) {
+                .up {text-align: bottom;
+                padding-top: 0px;}
+                .up img {height: 170px;}
+                .contact-1 {float: none;
+                width: auto; font-size: 25px;} 
+                .contact-2 {font-size: 30px;}
+                .bottone {width: 280px;
+                font-size: 30px;}
+                .bottonel {width: 280px;
+                font-size: 30px;}
+                .gandalf {display: flex; padding-left: 50px; padding-right: 50px;}
+                .menu {width: 280px; font-size: 30px;}
+                .scelta {width: 280px; font-size: 26px;}
+            }
+
+            @media (max-width: 767px) {
+                .up {text-align: bottom;
+                padding-top: 0px;}
+                .up img {height: 170px;}
+                .contact-1 {float: none;
+                width: auto; font-size: 25px;} 
+                .contact-2 {font-size: 30px;}
+                .bottone {width: 230px;
+                font-size: 27px;}
+                .bottonel {width: 230px;
+                font-size: 27px;}
+                .gandalf {display: flex; padding-left: 30px; padding-right: 30px;}
+                .menu {width: 230px; font-size: 27px;}
+                .scelta {width: 230px; font-size: 24px;}
+            }
+          
+            @media (max-width: 480px) {
+                .up {text-align: center;
+                padding-top: 30px;}
+                .up img {height: 120px;}
+                .contact-1 {float: none;
+                width: auto; font-size: 25px;}
+                .contact-2 {font-size: 30px;}
+                .bottone {width: 230px;
+                font-size: 27px;}
+                .bottonel {width: 230px;
+                font-size: 27px;}
+                .gandalf {display: inline;}
+                .menu {width: 230px; font-size: 27px;}
+                .scelta {width: 230px; font-size: 24px;}    
+            }  
+            
+            .menu:hover {
+                background-color: aqua;
+            }
+
+            .gigi {
+                position: relative;
+                display: inline-block;
+            }
+
+            .scelta {
+                display: none;
+                position: absolute;
+                background-color: #f5ba4b;
+                overflow: auto;
+            }
+
+            .scelta a {
+                color: black;
+                padding: auto;
+                display: block;
+            }
+
+            .gigi a:hover {
+                background-color: green;
+            }
+        
+            .mostra {display: block;}
+        
+        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="app.js"></script>
+        <div class="up">
+            <img src="filtcgil.jpg" alt="filtromalazio"/>
+        </div>        
+        <div class="contact-1">
+            <h4>La FILT è dalla tua parte! </h4>
+        </div>
+        <div class="contact-2">
+            <a href="contatti.html"><h3>CONTATTACI</h3></a>
+        </div>
+        <div class="questionari">
+            <h1>SEGNALA</h1>
+            <h2><strong>è importante per te e per i colleghi!</strong></h2>
+            <div class="gandalf">
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1bB2QeOhJglONYQoLQcW04oH4-uUyD0iMsdEGeo5ZLXh6Hw/viewform"><div class="bottonel"><h5>AGGRESSIONE</h5></div></a>
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfxanhSi8-SxbcdamZCcVwuRujkDpmUxqEQN9zhZKjnd31sEQ/viewform?usp=sf_link"><div class="bottonel"><h5>TURNO</h5></div></a>
+            </div>
+             <p>N.B. Per ulteriori segnalazioni (come per esempio: mancata approvazione ferie automatiche, situazione parcheggi,...) contattate i nostri referenti.</p>      
+        </div>               
+        <div class="orario">
+            <h1><yll>ORARIO DI LAVORO</yll></h1>
+            <div class="gigi">
+              <button class="menu" onclick="toggleMenu()">VADEMECUM</button>
+              <div id="brand" class="scelta">
+                <a href="FILT per il BORDO regionale.pdf">Regionale-PdB</a>
+                <a href="FILT per il MACCHINA regionale.pdf">Regionale-PdM</a>
+                <a href="xxx">Intercity-PdB</a>
+                <a href="xxx">Intercity-PdM</a>
+                <a href="xxx">Alta velocità-PdB</a>
+                <a href="xxx">Alta velocità-Pdm</a>
+                <a href="Vademecum Personale Equipaggi  FILT CGIL.pdf">Completo</a>
+              </div>
+            </div>              
+        </div>
+        <div class="bit">
+            <h1><strong>FILT-BIT</strong></h1>
+            <div class="gandalf">
+             <a href="m40.html"><div class="bottone"><h5>M40</h5></div></a>
+             <a href="sciopero.html"><div class="bottone"><h5>SCIOPERO</h5></div></a>
+            </div>
+            <div class="gandalf">
+                <a href="malattia.html"><div class="bottone"><h5>MALATTIA</h5></div></a>
+                <a href="infortunio.html"><div class="bottone"><h5>INFORTUNIO</h5></div></a>
+            </div>
+            <div class="gandalf">
+                <a href="pauseeticket.html"><div class="bottone"><h5>PAUSE & TICKET</h5></div></a>
+                <a href="congedi.html"><div class="bottone"><h5>CONGEDI</h5></div></a>
+            </div>
+            <div class="gandalf">
+                <a href="disponibilità.html"><div class="bottone"><h5>DISPONIBILITA'</h5></div></a>
+                <a href="straordinario.html"><div class="bottone"><h5>STRAORDINARIO</h5></div></a>
+            </div>
+            <div class="gandalf">
+                <a href="IVU.html"><div class="bottone"><h5>IVU</h5></div></a>
+                <a href="faq.html"><div class="bottone"><h5>FAQ</h5></div></a>
+            </div>
+        </div>       
+    <script>
+        function toggleMenu() {
+            document.getElementById("brand").classList.toggle("mostra");
+        }
+    </script>
+
+    </body>
+</html>
