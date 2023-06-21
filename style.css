@@ -18,6 +18,12 @@
     padding: 2px;
 }
 
+.corso {
+    background-color: rgb(52, 52, 52);
+    text-align: center;
+    padding: 2px;
+}
+
 h4 {
     color: rgb(255, 0, 0);
     line-height: 0px;
