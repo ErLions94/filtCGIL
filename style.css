@@ -24,6 +24,12 @@
     padding: 2px;
 }
 
+.HD {
+    background-color: rgb(122, 209, 227);
+    text-align: center;
+    padding: 2px;
+}
+
 h4 {
     color: rgb(255, 0, 0);
     line-height: 0px;
@@ -37,7 +43,7 @@ h3 {
 .questionari {
     background-color: rgba(128, 0, 128, 30%);
     text-align: center;
-    padding: 5px 0 10px 0;
+    padding: 5px 0;
 }
 
 blue {
